@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual envs & tooling caches
+.venv/
+venv/
+env/
+.uv/
+.uv-cache/
+.python-version.local
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Data & models (keep out of git)
+data/
+datasets/
+checkpoints/
+models/
+outputs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+*.h5
+*.npz
+*.parquet
+*.arrow
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
